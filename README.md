@@ -1,4 +1,5 @@
 # JokeLang
+
 Community translations for JokeCraft.
 ---
 ## Contribute
