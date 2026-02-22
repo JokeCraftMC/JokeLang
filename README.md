@@ -54,6 +54,24 @@ When you see text like this:
 "welcome": "<primary>Willkommen bei JokeCraft, {player}!</primary>"
 ```
 
+### 💡 **You don't need to translate EVERYTHING!**
+
+**Important:** You can translate just a few lines at a time. If a translation is missing, the game will automatically show English instead.
+
+For example, `de_DE.json` only needs:
+```json
+{
+  "command": {
+    "error": "<error>Fehler:</error> {message}"
+  },
+  "general": {
+    "welcome": "<gradient:green:blue>Willkommen bei JokeCraft!</gradient>"
+  }
+}
+```
+
+The game will use English for any missing translations automatically! 🎉
+
 ---
 
 ### ⚠️ Things to Keep EXACTLY As-Is:
