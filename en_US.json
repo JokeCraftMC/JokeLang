@@ -1,0 +1,293 @@
+{
+  "command": {
+    "error": "<error>Error:</error> {message}",
+    "no_permission": "<error>{message}</error>",
+    "not_found": "<error>Command not found!</error>\n<neutral>Type</neutral> <hover:show_text:'<secondary>Click to run /help</secondary>'><click:run_command:/help><secondary>/help</secondary></click></hover> <neutral>for a list of commands.</neutral>",
+    "usage": "<info>Usage:</info> {usage}",
+    "player_only": "<error>This command can only be used by players!</error>",
+    "console_only": "<error>This command can only be used from console!</error>",
+    "success": "<success>Success!</success> {message}",
+    "invalid_args": "<error>Invalid command format!</error>",
+    "parent": {
+      "help": {
+        "header": "<primary>=== {command} Help ===</primary> <secondary>(Page {page}/{total})</secondary>",
+        "no_commands": "<neutral>No commands available.</neutral>",
+        "usage_line": "<secondary>/{parent} {usage}</secondary>",
+        "desc_line": "<neutral>  {description}</neutral>",
+        "usage": "help [page]",
+        "description": "Show command help"
+      },
+      "child_usage": "<secondary>Usage:</secondary> <neutral>/{parent} {usage}</neutral>"
+    }
+  },
+  "module": {
+    "manager": {
+      "title": "<primary>=== Module Manager ===</primary>"
+    },
+    "help": {
+      "list": "<secondary>/module list</secondary> <neutral>- List all modules</neutral>",
+      "info": "<secondary>/module info <module></secondary> <neutral>- Module information</neutral>",
+      "reload": "<secondary>/module reload <module></secondary> <neutral>- Reload a module</neutral>",
+      "enable": "<secondary>/module enable <module></secondary> <neutral>- Enable a module</neutral>",
+      "disable": "<secondary>/module disable <module></secondary> <neutral>- Disable a module</neutral>"
+    },
+    "list": {
+      "loaded": "<primary>=== Loaded Modules ===</primary>",
+      "all": "<primary>=== All Modules ===</primary>"
+    },
+    "info": {
+      "title": "<primary>=== Module Info ===</primary>",
+      "name": "<secondary>Name:</secondary> <neutral>{name}</neutral>",
+      "version": "<secondary>Version:</secondary> <neutral>{version}</neutral>",
+      "status": "<secondary>Status:</secondary> <neutral>{status}</neutral>",
+      "description": "<secondary>Description:</secondary> <neutral>{description}</neutral>",
+      "dependencies": "<secondary>Dependencies:</secondary> <neutral>{dependencies}</neutral>",
+      "force_start": "<secondary>Force Start:</secondary> <neutral>{force_start}</neutral>",
+      "priority": "<secondary>Priority:</secondary> <neutral>{priority}</neutral>"
+    },
+    "not_found": "<error>Module not found:</error> <neutral>{module}</neutral>",
+    "reloading": "<info>Reloading module:</info> <neutral>{module}</neutral>",
+    "reload": {
+      "success": "<success>Successfully reloaded module:</success> <positive>{module}</positive>",
+      "failed": "<error>Failed to reload module:</error> <negative>{message}</negative>"
+    },
+    "enable": {
+      "success": "<success>Enabled module:</success> <positive>{module}</positive>",
+      "failed": "<error>Failed to enable module:</error> <negative>{message}</negative>"
+    },
+    "disable": {
+      "success": "<success>Disabled module:</success> <positive>{module}</positive>",
+      "failed": "<error>Failed to disable module:</error> <negative>{message}</negative>"
+    }
+  },
+  "parkour": {
+    "complete": "<positive>Complete!</positive> Time: <primary>{time}</primary>",
+    "failed": "<negative>Failed!</negative> Better luck next time!",
+    "checkpoint": "<success>Checkpoint reached!</success> <secondary>{checkpoint}</secondary>",
+    "start": "<info>Parkour started!</info> Good luck!"
+  },
+  "general": {
+    "welcome": "<gradient:green:blue>Welcome to JokeCraft!</gradient>",
+    "goodbye": "<rainbow>Goodbye, see you soon!</rainbow>",
+    "player_only": "<error>This command can only be used by players!</error>",
+    "given_player_not_found": "<error>Could not find player named <highlight>{player}</highlight><error>!</error>",
+    "given_rank_not_found": "<error>Could not find</error> <highlight>{type}</highlight> <error>rank named</error> <highlight>{rank}</highlight><error>!</error>",
+    "invalid_time_format": "<error>Invalid time format!</error> <neutral>Examples:</neutral> <highlight>30s</highlight><neutral>,</neutral> <highlight>5m</highlight><neutral>,</neutral> <highlight>2h</highlight><neutral>,</neutral> <highlight>7d</highlight><neutral>,</neutral> <highlight>3mo</highlight><neutral>,</neutral> <highlight>1y</highlight>",
+    "number_invalid": "<error>Number must be positive!</error>",
+    "error": "<error>An error has occurred! Contact Simen. </error>",
+    "use_command_on_self": "<error>You cannot use this command on yourself!</error>"
+  },
+  "player": {
+    "join": "<positive>{player}</positive> <neutral>joined the game</neutral>",
+    "leave": "<secondary>{player}</secondary> <neutral>left the game</neutral>",
+    "already_connected": "<error>You are already connected to this server!</error>"
+  },
+  "debug": {
+    "status": "<info>Debug mode is currently:</info> <highlight>{status}</highlight>",
+    "enabled": "<success>Debug mode enabled!</success> <neutral>Debug messages will now be shown.</neutral>",
+    "disabled": "<success>Debug mode disabled!</success> <neutral>Debug messages will be hidden.</neutral>",
+    "usage": "<secondary>Use /debug [on|off] to toggle</secondary>",
+    "description": "Toggle debug mode to show/hide debug messages"
+  },
+  "language": {
+    "changed": "<success>Language changed to:</success> <highlight>{language}</highlight>",
+    "invalid": "<error>Invalid language!</error> <neutral>Choose from: English, French, German, Uwu</neutral>",
+    "usage": "[English|French|German|Uwu]",
+    "description": "Change your language preference"
+  },
+  "user": {
+    "data": {
+      "load_error": "<error>Failed to load user data. Please try again.</error>",
+      "late_error": "<error>User data failed to load. Please reconnect.</error>"
+    }
+  },
+  "rank": {
+    "command": {
+        "usage": "[help|server|parkour|donator]",
+        "desc": "Manage player ranks",
+        "success": "<success>Set</success> <highlight>{player}</highlight><success>'s {type} rank to {rank}!</success>",
+        "cannot_derank": "<error>Cannot de-rank</error> <highlight>{player}</highlight><error>!</error>",
+        "server": {
+          "usage": "server <player> <rank> [canDeRank]",
+          "desc": "Set a player's server rank"
+        },
+        "parkour": {
+          "usage": "parkour <player> <rank> [canDeRank]",
+          "desc": "Set a player's parkour rank"
+        },
+        "donator": {
+          "usage": "donator <player> <rank> [canDeRank]",
+          "desc": "Set a player's donator rank"
+        }
+    }
+  },
+  "economy": {
+    "command": {
+      "balance": {
+        "usage": "[type]",
+        "desc": "Check your balance",
+        "single": "<success>Your</success> <highlight>{type}</highlight> <success>balance is:</success> <highlight>{amount}</highlight>",
+        "both": "<success>Your</success> <highlight>coins</highlight> <success>balance is:</success> <highlight>{coins}</highlight>\n<success>Your</success> <highlight>tickets</highlight> <success>balance is:</success> <highlight>{tickets}</highlight>"
+      },
+      "parent" : {
+        "usage": "<add|remove|set|get>",
+        "desc": "Manage player balances"
+      },
+      "add": {
+        "usage": "add <player> <type> <amount>",
+        "desc": "Add currency to a player's balance",
+        "success": "<success>Added <highlight>{amount} {type}</highlight> to</success> <highlight>{player}</highlight><success>'s balance!</success>"
+      },
+      "remove": {
+        "usage": "remove <player> <type> <amount>",
+        "desc": "Remove currency from a player's balance",
+        "success": "<success>Removed <highlight>{amount} {type}</highlight> from</success> <highlight>{player}</highlight><success>'s balance!</success>"
+      },
+      "set": {
+        "usage": "set <player> <type> <amount>",
+        "desc": "Set a player's balance to a specific amount",
+        "success": "<success>Set</success> <highlight>{player}</highlight><success>'s</success> <highlight>{type}</highlight> <success>balance to</success> <highlight>{amount}</highlight><success>!</success>"
+      },
+      "get": {
+        "usage": "get <player> <type>",
+        "desc": "Get a player's current balance",
+        "success": "<highlight>{player}</highlight><success>'s</success> <highlight>{type}</highlight> <success>balance is:</success> <highlight>{amount}</highlight>"
+      },
+      "type_invalid": "<error>Invalid currency type!</error> <neutral>Choose from: coins & tokens</neutral>"
+    }
+  },
+  "punishment": {
+    "command": {
+      "mute": {
+        "usage": "<player> <reason>",
+        "desc": "Mute a player in chat",
+        "no_reason": "<error>You must provide a reason for the mute!</error>",
+        "cannot_mute_staff": "<error>You cannot mute staff members!</error>",
+        "failed": "<error>Failed to mute player! Report this NOW!</error>",
+        "success": "<success>Successfully muted</success> <highlight>{player}</highlight><success>!</success>"
+      },
+      "kick": {
+        "usage": "<player> [reason]",
+        "desc": "Kick a player from the server",
+        "cannot_kick_staff": "<error>You cannot kick staff members!</error>",
+        "success": "<success>Successfully kicked</success> <highlight>{player}</highlight><success>!</success>"
+      },
+      "ban": {
+        "usage": "<player> <reason> [-s]",
+        "desc": "Ban a player from the server",
+        "no_reason": "<error>You must provide a reason for the ban!</error>",
+        "cannot_ban_staff": "<error>You cannot ban staff members!</error>",
+        "failed": "<error>Failed to ban player! Report this NOW!</error>",
+        "success": "<success>Successfully banned</success> <highlight>{player}</highlight><success>!</success>"
+      },
+      "tempban": {
+        "usage": "<player> <time> <reason> [-s]",
+        "desc": "Temporarily ban a player from the server",
+        "failed": "<error>Failed to tempban player! Report this NOW!</error>",
+        "success": "<success>Successfully tempbanned</success> <highlight>{player}</highlight><success> for {time}!</success>"
+      },
+      "tempmute": {
+        "usage": "<player> <time> <reason>",
+        "desc": "Temporarily mute a player on the server",
+        "failed": "<error>Failed to tempmute player! Report this NOW!</error>",
+        "success": "<success>Successfully tempmuted</success> <highlight>{player}</highlight><success> for {time}!</success>"
+      },
+      "unban": {
+        "usage": "<player>",
+        "desc": "Unban a player from the server",
+        "not_banned": "<error>That player is not banned!</error>",
+        "failed": "<error>Failed to unban player! Report this NOW!</error>",
+        "success": "<success>Successfully unbanned</success> <highlight>{player}</highlight><success>!</success>"
+      },
+      "unmute": {
+        "usage": "<player>",
+        "desc": "Unmute a player on the server",
+        "not_muted": "<error>That player is not muted!</error>",
+        "failed": "<error>Failed to unmute player! Report this NOW!</error>",
+        "success": "<success>Successfully unmuted</success> <highlight>{player}</highlight><success>!</success>"
+      }
+    },
+    "type": {
+      "permanent": "permanently",
+      "temporary": "temporarily"
+    },
+    "ban": {
+      "broadcast": {
+        "header": "<error>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</error>",
+        "player": "<negative>The player</negative> <highlight>{player}</highlight> <negative>has been {type} banned!</negative>",
+        "reason": "<secondary>Reason:</secondary> <neutral>{reason}</neutral>",
+        "expires": "<secondary>Expires in:</secondary> <highlight>{time}</highlight>",
+        "footer": "<error>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</error>"
+      },
+      "disconnect": {
+        "header": "<primary><bold>JOKECRAFT</bold></primary> <secondary>/</secondary> <error><bold>BANNED</bold></error>",
+        "message": "<negative>You have been {type} banned!</negative>",
+        "reason": "<secondary>Reason:</secondary> <neutral>{reason}</neutral>",
+        "expires": "<secondary>Expires in:</secondary> <highlight>{time}</highlight>",
+        "footer": "<error>Remember, I'm always watching...</error>",
+        "appeal": "<secondary>Appeal at</secondary> <highlight>discord.jokecraft.org</highlight>"
+      }
+    },
+    "mute": {
+      "message": "<negative>You are {type} muted!</negative>",
+      "reason": "<secondary>Reason:</secondary> <neutral>{reason}</neutral>",
+      "expires": "<secondary>Expires in:</secondary> <highlight>{time}</highlight>"
+    },
+    "muted": {
+      "message": "<negative>You've been {type} muted!</negative>",
+      "reason": "<secondary>Reason:</secondary> <neutral>{reason}</neutral>",
+      "expires": "<secondary>Expires in:</secondary> <highlight>{time}</highlight>"
+    }
+  },
+  "essentials": {
+    "command": {
+      "help": {
+        "usage": "",
+        "desc": "Shows a list of commands"
+      },
+      "ignore": {
+        "usage": "<player>",
+        "desc": "Toggle ignoring a player's messages in chat",
+        "already_ignoring": "<error>You are already ignoring</error> <highlight>{player}</highlight><error>!</error>",
+        "success": "<success>You are now ignoring</success> <highlight>{player}</highlight><success>!</success>"
+      },
+      "ignorelist": {
+        "usage": "",
+        "desc": "List all players you are currently ignoring",
+        "empty": "<neutral>You are not currently ignoring any players.</neutral>",
+        "header": "<primary>=== Ignored Players ===</primary>",
+        "entries": "<secondary>{players}</secondary>"
+      },
+      "unignore": {
+        "usage": "<player>",
+        "desc": "Stop ignoring a player's messages in chat",
+        "not_ignoring": "<error>You are not ignoring</error> <highlight>{player}</highlight><error>!</error>",
+        "success": "<success>You have stopped ignoring</success> <highlight>{player}</highlight><success>!</success>"
+      },
+      "helpop": {
+        "usage": "<message>",
+        "desc": "Send a message to online staff members",
+        "format": "<primary>[HelpOp]</primary> <highlight>{player}</highlight><primary></primary> <neutral>{message}</neutral>",
+        "success": "<success>Your message has been sent to online staff members!</success>"
+      },
+      "msg": {
+        "usage": "<player> <message>",
+        "desc": "Send a private message to another player",
+        "format_send": "<primary>[PM]</primary> <highlight>You</highlight><primary> → </primary><highlight>{recipient}</highlight> <neutral>{message}</neutral>",
+        "format_receive": "<primary>[PM]</primary> <highlight>{sender}</highlight><primary> → </primary><highlight>You</highlight> <neutral>{message}</neutral>"
+      },
+      "reply": {
+        "usage": "<message>",
+        "desc": "Reply to the last player who sent you a private message",
+        "no_reply": "<error>You have no one to reply to!</error>",
+        "no_online": "<error>The player you are trying to reply to is no longer online!</error>"
+      },
+      "night_vision": {
+        "usage": "",
+        "desc": "Toggle night vision effect",
+        "enabled": "<success>Night vision enabled!</success>",
+        "disabled": "<success>Night vision disabled!</success>"
+      }
+    }
+  }
+}

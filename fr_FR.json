@@ -1,0 +1,32 @@
+{
+  "_note": "This French translation is incomplete and needs native speakers!",
+  "_contributors": "Add your name here when you contribute!",
+  "_progress": "0%",
+
+  "command": {
+    "error": "<error>Erreur:</error> {message}",
+    "no_permission": "<error>{message}</error>",
+    "not_found": "<error>Commande introuvable!</error>\n<neutral>Tapez</neutral> <hover:show_text:'<secondary>Cliquez pour exécuter /help</secondary>'><click:run_command:/help><secondary>/help</secondary></click></hover> <neutral>pour une liste des commandes.</neutral>",
+    "usage": "<info>Utilisation:</info> {usage}",
+    "player_only": "<error>Cette commande ne peut être utilisée que par les joueurs!</error>",
+    "console_only": "<error>Cette commande ne peut être utilisée que depuis la console!</error>",
+    "success": "<success>Succès!</success> {message}",
+    "invalid_args": "<error>Format de commande invalide!</error>"
+  },
+
+  "general": {
+    "welcome": "<gradient:green:blue>Bienvenue sur JokeCraft!</gradient>",
+    "goodbye": "<rainbow>Au revoir, à bientôt!</rainbow>"
+  },
+
+  "player": {
+    "join": "<positive>{player}</positive> <neutral>a rejoint le jeu</neutral>",
+    "leave": "<secondary>{player}</secondary> <neutral>a quitté le jeu</neutral>"
+  },
+
+  "language": {
+    "changed": "<success>Langue changée en:</success> <highlight>{language}</highlight>",
+    "invalid": "<error>Langue invalide!</error>",
+    "description": "Changer votre préférence de langue"
+  }
+}

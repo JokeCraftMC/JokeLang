@@ -1,0 +1,98 @@
+{
+  "colors": {
+    "positive": "#FFB3E6",
+    "negative": "#FF99CC",
+    "neutral": "#FFE6F0",
+    "warning": "#FFFF99",
+    "error": "#FFCCFF",
+    "success": "#FFCCFF",
+    "info": "#FFE699",
+    "primary": "#FF99FF",
+    "secondary": "#FFCCFF",
+    "accent": "#FFFF66",
+    "highlight": "#FFFF99"
+  },
+  "command": {
+    "error": "<error>Oopsie woopsie!</error> UwU {message}",
+    "no_permission": "<error>{message}</error> >w<",
+    "not_found": "<error>Command not found!</error> owo\n<neutral>Type</neutral> <hover:show_text:'<secondary>Click to wun /hewp! ^w^</secondary>'><click:run_command:/help><secondary>/hewp</secondary></click></hover> <neutral>fow a wist of commands!</neutral> uwu",
+    "usage": "<info>How to use:</info> {usage}",
+    "player_only": "<error>Dis command is onwy fow pwayers!</error> OwO",
+    "console_only": "<error>Dis command is onwy fow consowe!</error> >w<",
+    "success": "<success>Yay!</success> {message} UwU",
+    "invalid_args": "<error>Wats wawng fowmat!</error> ~w~"
+  },
+  "module": {
+    "manager": {
+      "title": "<primary>=== Moduwe Managew ===</primary>"
+    },
+    "help": {
+      "list": "<secondary>/module list</secondary> <neutral>- Wist aww moduwes</neutral>",
+      "info": "<secondary>/module info <module></secondary> <neutral>- Moduwe infowmation</neutral>",
+      "reload": "<secondary>/module reload <module></secondary> <neutral>- Weload a moduwe</neutral>",
+      "enable": "<secondary>/module enable <module></secondary> <neutral>- Enabwe a moduwe</neutral>",
+      "disable": "<secondary>/module disable <module></secondary> <neutral>- Disabwe a moduwe</neutral>"
+    },
+    "list": {
+      "loaded": "<primary>=== Woaded Moduwes ===</primary>",
+      "all": "<primary>=== Aww da Moduwes ===</primary>"
+    },
+    "info": {
+      "title": "<primary>=== Moduwe Info ===</primary>",
+      "name": "<secondary>Nayme:</secondary> <neutral>{name}</neutral>",
+      "version": "<secondary>Vewsion:</secondary> <neutral>{version}</neutral>",
+      "status": "<secondary>Status:</secondary> <neutral>{status}</neutral>",
+      "description": "<secondary>Descwiption:</secondary> <neutral>{description}</neutral>",
+      "dependencies": "<secondary>Dependies:</secondary> <neutral>{dependencies}</neutral>",
+      "force_start": "<secondary>Fowce Stawt:</secondary> <neutral>{force_start}</neutral>",
+      "priority": "<secondary>Pwiowity:</secondary> <neutral>{priority}</neutral>"
+    },
+    "not_found": "<error>Moduwe not found:</error> <neutral>{module}</neutral> ;w;",
+    "reloading": "<info>Wewoading moduwe:</info> <neutral>{module}</neutral>",
+    "reload": {
+      "success": "<success>Successfuwwy wewoaded moduwe!</success> <positive>{module}</positive> UwU",
+      "failed": "<error>Faiwed to weload moduwe:</error> <negative>{message}</negative> >w<"
+    },
+    "enable": {
+      "success": "<success>Enabwed moduwe!</success> <positive>{module}</positive> Yay!",
+      "failed": "<error>Faiwed to enabwe moduwe:</error> <negative>{message}</negative> ;-;"
+    },
+    "disable": {
+      "success": "<success>Disabwed moduwe!</success> <positive>{module}</positive> Bai bai!",
+      "failed": "<error>Faiwed to disabwe moduwe:</error> <negative>{message}</negative> TwT"
+    }
+  },
+  "parkour": {
+    "complete": "<positive>Compwete!</positive> UwU Timey: <primary>{time}</primary>",
+    "failed": "<negative>Faiwed!</negative> Bettew wuck next time, cutie! >w<",
+    "checkpoint": "<success>Checkpoint weached!</success> <secondary>{checkpoint}</secondary> Yay!",
+    "start": "<info>Parkouw stawted!</info> Good wuck, senpai!"
+  },
+  "general": {
+    "welcome": "<gradient:#FF99FF:#FFFF99>Wewcome to JokeCwaft!</gradient> UwU",
+    "goodbye": "<gradient:#FFCCFF:#FFE699>Goodbye, see chu soon!</gradient> *nuzzles* OwO"
+  },
+  "player": {
+    "join": "<positive>{player}</positive> <neutral>joined da game!</neutral> Hewwo! UwU",
+    "leave": "<secondary>{player}</secondary> <neutral>weft da game</neutral> Bai bai! ;w;",
+    "already_connected": "<error>Youw aweady connected to dis sewvew!</error> >///<"
+  },
+  "debug": {
+    "status": "<info>Debug mode is cuwwentwy:</info> <highlight>{status}</highlight> OwO",
+    "enabled": "<success>Debug mode enwabwed!</success> <neutral>Debug messages wiww be shown nyow~</neutral> UwU",
+    "disabled": "<success>Debug mode disabwed!</success> <neutral>Debug messages wiww be hidden~</neutral> >w<",
+    "usage": "<secondary>Use /debug [on|off] to toggwe</secondary> ^w^"
+  },
+  "language": {
+    "changed": "<success>Wanguage changed to:</success> <highlight>{language}</highlight> UwU",
+    "invalid": "<error>Invawind wanguage!</error> <neutral>Choose fwom: English, French, German, Uwu</neutral> >w<",
+    "usage": "/language [English|French|German|Uwu]",
+    "description": "Change youw wanguage pwefewence~ OwO"
+  },
+  "user": {
+    "data": {
+      "load_error": "<error>Faiwed to woad usew data. Pwease twy again.</error> ;w;",
+      "late_error": "<error>Usew data faiwed to woad. Pwease weconnect.</error> QwQ"
+    }
+  }
+}
