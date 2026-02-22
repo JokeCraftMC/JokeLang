@@ -1,8 +1,4 @@
 {
-  "test_automation": {
-    "message": "<success>Third time's the charm!</success>",
-    "description": "Testing the automation with corrected workspace paths"
-  },
   "command": {
     "error": "<error>Error:</error> {message}",
     "no_permission": "<error>{message}</error>",

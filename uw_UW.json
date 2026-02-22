@@ -1,13 +1,9 @@
 {
-  "test_automation": {
-    "message": "TODO: <success>Third time's the charm!</success>",
-    "description": "TODO: Testing the automation with corrected workspace paths"
-  },
   "command": {
     "error": "<error>Oopsie woopsie!</error> UwU {message}",
     "no_permission": "<error>{message}</error> >w<",
     "not_found": "<error>Command not found!</error> owo\n<neutral>Type</neutral> <hover:show_text:'<secondary>Click to wun /hewp! ^w^</secondary>'><click:run_command:/help><secondary>/hewp</secondary></click></hover> <neutral>fow a wist of commands!</neutral> uwu",
-    "usage": "<info>How to use:</info> {usage}",
+    "usage": "<info>Usage:</info> {usage}",
     "player_only": "<error>Dis command is onwy fow pwayers!</error> OwO",
     "console_only": "<error>Dis command is onwy fow consowe!</error> >w<",
     "success": "<success>Yay!</success> {message} UwU",
@@ -18,8 +14,8 @@
         "no_commands": "TODO: <neutral>No commands available.</neutral>",
         "usage_line": "TODO: <secondary>/{parent} {usage}</secondary>",
         "desc_line": "TODO: <neutral>  {description}</neutral>",
-        "usage": "TODO: help [page]",
-        "description": "TODO: Show command help"
+        "usage": "help [page]",
+        "description": "Show command help"
       },
       "child_usage": "TODO: <secondary>Usage:</secondary> <neutral>/{parent} {usage}</neutral>"
     }
@@ -44,7 +40,7 @@
       "name": "<secondary>Nayme:</secondary> <neutral>{name}</neutral>",
       "version": "<secondary>Vewsion:</secondary> <neutral>{version}</neutral>",
       "status": "TODO: <secondary>Status:</secondary> <neutral>{status}</neutral>",
-      "description": "<secondary>Descwiption:</secondary> <neutral>{description}</neutral>",
+      "description": "<secondary>Description:</secondary> <neutral>{description}</neutral>",
       "dependencies": "<secondary>Dependies:</secondary> <neutral>{dependencies}</neutral>",
       "force_start": "<secondary>Fowce Stawt:</secondary> <neutral>{force_start}</neutral>",
       "priority": "<secondary>Pwiowity:</secondary> <neutral>{priority}</neutral>"
@@ -90,14 +86,14 @@
     "status": "<info>Debug mode is cuwwentwy:</info> <highlight>{status}</highlight> OwO",
     "enabled": "<success>Debug mode enwabwed!</success> <neutral>Debug messages wiww be shown nyow~</neutral> UwU",
     "disabled": "<success>Debug mode disabwed!</success> <neutral>Debug messages wiww be hidden~</neutral> >w<",
-    "usage": "<secondary>Use /debug [on|off] to toggwe</secondary> ^w^",
-    "description": "TODO: Toggle debug mode to show/hide debug messages"
+    "usage": "<secondary>Use /debug [on|off] to toggle</secondary>",
+    "description": "Toggle debug mode to show/hide debug messages"
   },
   "language": {
     "changed": "<success>Wanguage changed to:</success> <highlight>{language}</highlight> UwU",
     "invalid": "<error>Invawind wanguage!</error> <neutral>Choose fwom: English, French, German, Uwu</neutral> >w<",
-    "usage": "/language [English|French|German|Uwu]",
-    "description": "Change youw wanguage pwefewence~ OwO"
+    "usage": "[English|French|German|Uwu]",
+    "description": "Change your language preference"
   },
   "user": {
     "data": {
@@ -107,54 +103,54 @@
   },
   "rank": {
     "command": {
-      "usage": "TODO: [help|server|parkour|donator]",
-      "desc": "TODO: Manage player ranks",
+      "usage": "[help|server|parkour|donator]",
+      "desc": "Manage player ranks",
       "success": "TODO: <success>Set</success> <highlight>{player}</highlight><success>'s {type} rank to {rank}!</success>",
       "cannot_derank": "TODO: <error>Cannot de-rank</error> <highlight>{player}</highlight><error>!</error>",
       "server": {
-        "usage": "TODO: server <player> <rank> [canDeRank]",
-        "desc": "TODO: Set a player's server rank"
+        "usage": "server <player> <rank> [canDeRank]",
+        "desc": "Set a player's server rank"
       },
       "parkour": {
-        "usage": "TODO: parkour <player> <rank> [canDeRank]",
-        "desc": "TODO: Set a player's parkour rank"
+        "usage": "parkour <player> <rank> [canDeRank]",
+        "desc": "Set a player's parkour rank"
       },
       "donator": {
-        "usage": "TODO: donator <player> <rank> [canDeRank]",
-        "desc": "TODO: Set a player's donator rank"
+        "usage": "donator <player> <rank> [canDeRank]",
+        "desc": "Set a player's donator rank"
       }
     }
   },
   "economy": {
     "command": {
       "balance": {
-        "usage": "TODO: [type]",
-        "desc": "TODO: Check your balance",
+        "usage": "[type]",
+        "desc": "Check your balance",
         "single": "TODO: <success>Your</success> <highlight>{type}</highlight> <success>balance is:</success> <highlight>{amount}</highlight>",
         "both": "TODO: <success>Your</success> <highlight>coins</highlight> <success>balance is:</success> <highlight>{coins}</highlight>\n<success>Your</success> <highlight>tickets</highlight> <success>balance is:</success> <highlight>{tickets}</highlight>"
       },
       "parent": {
-        "usage": "TODO: <add|remove|set|get>",
-        "desc": "TODO: Manage player balances"
+        "usage": "<add|remove|set|get>",
+        "desc": "Manage player balances"
       },
       "add": {
-        "usage": "TODO: add <player> <type> <amount>",
-        "desc": "TODO: Add currency to a player's balance",
+        "usage": "add <player> <type> <amount>",
+        "desc": "Add currency to a player's balance",
         "success": "TODO: <success>Added <highlight>{amount} {type}</highlight> to</success> <highlight>{player}</highlight><success>'s balance!</success>"
       },
       "remove": {
-        "usage": "TODO: remove <player> <type> <amount>",
-        "desc": "TODO: Remove currency from a player's balance",
+        "usage": "remove <player> <type> <amount>",
+        "desc": "Remove currency from a player's balance",
         "success": "TODO: <success>Removed <highlight>{amount} {type}</highlight> from</success> <highlight>{player}</highlight><success>'s balance!</success>"
       },
       "set": {
-        "usage": "TODO: set <player> <type> <amount>",
-        "desc": "TODO: Set a player's balance to a specific amount",
+        "usage": "set <player> <type> <amount>",
+        "desc": "Set a player's balance to a specific amount",
         "success": "TODO: <success>Set</success> <highlight>{player}</highlight><success>'s</success> <highlight>{type}</highlight> <success>balance to</success> <highlight>{amount}</highlight><success>!</success>"
       },
       "get": {
-        "usage": "TODO: get <player> <type>",
-        "desc": "TODO: Get a player's current balance",
+        "usage": "get <player> <type>",
+        "desc": "Get a player's current balance",
         "success": "TODO: <highlight>{player}</highlight><success>'s</success> <highlight>{type}</highlight> <success>balance is:</success> <highlight>{amount}</highlight>"
       },
       "type_invalid": "TODO: <error>Invalid currency type!</error> <neutral>Choose from: coins & tokens</neutral>"
@@ -163,49 +159,49 @@
   "punishment": {
     "command": {
       "mute": {
-        "usage": "TODO: <player> <reason>",
-        "desc": "TODO: Mute a player in chat",
+        "usage": "<player> <reason>",
+        "desc": "Mute a player in chat",
         "no_reason": "TODO: <error>You must provide a reason for the mute!</error>",
         "cannot_mute_staff": "TODO: <error>You cannot mute staff members!</error>",
         "failed": "TODO: <error>Failed to mute player! Report this NOW!</error>",
         "success": "TODO: <success>Successfully muted</success> <highlight>{player}</highlight><success>!</success>"
       },
       "kick": {
-        "usage": "TODO: <player> [reason]",
-        "desc": "TODO: Kick a player from the server",
+        "usage": "<player> [reason]",
+        "desc": "Kick a player from the server",
         "cannot_kick_staff": "TODO: <error>You cannot kick staff members!</error>",
         "success": "TODO: <success>Successfully kicked</success> <highlight>{player}</highlight><success>!</success>"
       },
       "ban": {
-        "usage": "TODO: <player> <reason> [-s]",
-        "desc": "TODO: Ban a player from the server",
+        "usage": "<player> <reason> [-s]",
+        "desc": "Ban a player from the server",
         "no_reason": "TODO: <error>You must provide a reason for the ban!</error>",
         "cannot_ban_staff": "TODO: <error>You cannot ban staff members!</error>",
         "failed": "TODO: <error>Failed to ban player! Report this NOW!</error>",
         "success": "TODO: <success>Successfully banned</success> <highlight>{player}</highlight><success>!</success>"
       },
       "tempban": {
-        "usage": "TODO: <player> <time> <reason> [-s]",
-        "desc": "TODO: Temporarily ban a player from the server",
+        "usage": "<player> <time> <reason> [-s]",
+        "desc": "Temporarily ban a player from the server",
         "failed": "TODO: <error>Failed to tempban player! Report this NOW!</error>",
         "success": "TODO: <success>Successfully tempbanned</success> <highlight>{player}</highlight><success> for {time}!</success>"
       },
       "tempmute": {
-        "usage": "TODO: <player> <time> <reason>",
-        "desc": "TODO: Temporarily mute a player on the server",
+        "usage": "<player> <time> <reason>",
+        "desc": "Temporarily mute a player on the server",
         "failed": "TODO: <error>Failed to tempmute player! Report this NOW!</error>",
         "success": "TODO: <success>Successfully tempmuted</success> <highlight>{player}</highlight><success> for {time}!</success>"
       },
       "unban": {
-        "usage": "TODO: <player>",
-        "desc": "TODO: Unban a player from the server",
+        "usage": "<player>",
+        "desc": "Unban a player from the server",
         "not_banned": "TODO: <error>That player is not banned!</error>",
         "failed": "TODO: <error>Failed to unban player! Report this NOW!</error>",
         "success": "TODO: <success>Successfully unbanned</success> <highlight>{player}</highlight><success>!</success>"
       },
       "unmute": {
-        "usage": "TODO: <player>",
-        "desc": "TODO: Unmute a player on the server",
+        "usage": "<player>",
+        "desc": "Unmute a player on the server",
         "not_muted": "TODO: <error>That player is not muted!</error>",
         "failed": "TODO: <error>Failed to unmute player! Report this NOW!</error>",
         "success": "TODO: <success>Successfully unmuted</success> <highlight>{player}</highlight><success>!</success>"
@@ -246,55 +242,55 @@
   "essentials": {
     "command": {
       "help": {
-        "usage": "TODO: ",
-        "desc": "TODO: Shows a list of commands"
+        "usage": "",
+        "desc": "Shows a list of commands"
       },
       "ignore": {
-        "usage": "TODO: <player>",
-        "desc": "TODO: Toggle ignoring a player's messages in chat",
+        "usage": "<player>",
+        "desc": "Toggle ignoring a player's messages in chat",
         "already_ignoring": "TODO: <error>You are already ignoring</error> <highlight>{player}</highlight><error>!</error>",
         "success": "TODO: <success>You are now ignoring</success> <highlight>{player}</highlight><success>!</success>"
       },
       "ignorelist": {
-        "usage": "TODO: ",
-        "desc": "TODO: List all players you are currently ignoring",
+        "usage": "",
+        "desc": "List all players you are currently ignoring",
         "empty": "TODO: <neutral>You are not currently ignoring any players.</neutral>",
         "header": "TODO: <primary>=== Ignored Players ===</primary>",
         "entries": "TODO: <secondary>{players}</secondary>"
       },
       "unignore": {
-        "usage": "TODO: <player>",
-        "desc": "TODO: Stop ignoring a player's messages in chat",
+        "usage": "<player>",
+        "desc": "Stop ignoring a player's messages in chat",
         "not_ignoring": "TODO: <error>You are not ignoring</error> <highlight>{player}</highlight><error>!</error>",
         "success": "TODO: <success>You have stopped ignoring</success> <highlight>{player}</highlight><success>!</success>"
       },
       "helpop": {
-        "usage": "TODO: <message>",
-        "desc": "TODO: Send a message to online staff members",
+        "usage": "<message>",
+        "desc": "Send a message to online staff members",
         "format": "TODO: <primary>[HelpOp]</primary> <highlight>{player}</highlight><primary></primary> <neutral>{message}</neutral>",
         "success": "TODO: <success>Your message has been sent to online staff members!</success>"
       },
       "msg": {
-        "usage": "TODO: <player> <message>",
-        "desc": "TODO: Send a private message to another player",
+        "usage": "<player> <message>",
+        "desc": "Send a private message to another player",
         "format_send": "TODO: <primary>[PM]</primary> <highlight>You</highlight><primary> → </primary><highlight>{recipient}</highlight> <neutral>{message}</neutral>",
         "format_receive": "TODO: <primary>[PM]</primary> <highlight>{sender}</highlight><primary> → </primary><highlight>You</highlight> <neutral>{message}</neutral>"
       },
       "reply": {
-        "usage": "TODO: <message>",
-        "desc": "TODO: Reply to the last player who sent you a private message",
+        "usage": "<message>",
+        "desc": "Reply to the last player who sent you a private message",
         "no_reply": "TODO: <error>You have no one to reply to!</error>",
         "no_online": "TODO: <error>The player you are trying to reply to is no longer online!</error>"
       },
       "night_vision": {
-        "usage": "TODO: ",
-        "desc": "TODO: Toggle night vision effect",
+        "usage": "",
+        "desc": "Toggle night vision effect",
         "enabled": "TODO: <success>Night vision enabled!</success>",
         "disabled": "TODO: <success>Night vision disabled!</success>"
       }
     }
   },
-  "_note": "Translation progress: 50/181 (27.6%)",
+  "_note": "Translation progress: 103/179 (57.5%)",
   "_instructions": "Search for 'TODO:' to find untranslated strings",
   "_contributors": "Add your name here when you contribute!"
 }
