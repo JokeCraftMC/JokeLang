@@ -33,8 +33,10 @@ Thank you for helping translate JokeCraft! 🌍
 ## 📖 Need Help?
 
 - Check the [README.md](README.md) for detailed guidelines
-- Open an [Issue](../../issues) if you're unsure
-- Ask questions in [Discussions](../../discussions)
+- Join [Discussions](../../discussions) to ask questions and get help
+- Connect with other translators in the community
+
+---
 
 ## 🏆 Recognition
 

@@ -263,7 +263,13 @@ When you **fork** this repository, you get **your own copy** that you fully cont
 
 ### Don't Want to Use Git?
 
-Open an [Issue](../../issues/new/choose) requesting the language, and maintainers will add it for you!
+No problem! Join the [Discussions](../../discussions) and:
+- Ask questions about translating
+- Request a new language
+- Discuss translation choices
+- Get help from the community
+
+Maintainers will help you get started! 💬
 
 ---
 
