@@ -1,4 +1,8 @@
 {
+  "test_automation": {
+    "message": "<success>Third time's the charm!</success>",
+    "description": "Testing the automation with corrected workspace paths"
+  },
   "command": {
     "error": "<error>Error:</error> {message}",
     "no_permission": "<error>{message}</error>",
@@ -103,22 +107,22 @@
   },
   "rank": {
     "command": {
-        "usage": "[help|server|parkour|donator]",
-        "desc": "Manage player ranks",
-        "success": "<success>Set</success> <highlight>{player}</highlight><success>'s {type} rank to {rank}!</success>",
-        "cannot_derank": "<error>Cannot de-rank</error> <highlight>{player}</highlight><error>!</error>",
-        "server": {
-          "usage": "server <player> <rank> [canDeRank]",
-          "desc": "Set a player's server rank"
-        },
-        "parkour": {
-          "usage": "parkour <player> <rank> [canDeRank]",
-          "desc": "Set a player's parkour rank"
-        },
-        "donator": {
-          "usage": "donator <player> <rank> [canDeRank]",
-          "desc": "Set a player's donator rank"
-        }
+      "usage": "[help|server|parkour|donator]",
+      "desc": "Manage player ranks",
+      "success": "<success>Set</success> <highlight>{player}</highlight><success>'s {type} rank to {rank}!</success>",
+      "cannot_derank": "<error>Cannot de-rank</error> <highlight>{player}</highlight><error>!</error>",
+      "server": {
+        "usage": "server <player> <rank> [canDeRank]",
+        "desc": "Set a player's server rank"
+      },
+      "parkour": {
+        "usage": "parkour <player> <rank> [canDeRank]",
+        "desc": "Set a player's parkour rank"
+      },
+      "donator": {
+        "usage": "donator <player> <rank> [canDeRank]",
+        "desc": "Set a player's donator rank"
+      }
     }
   },
   "economy": {
@@ -129,7 +133,7 @@
         "single": "<success>Your</success> <highlight>{type}</highlight> <success>balance is:</success> <highlight>{amount}</highlight>",
         "both": "<success>Your</success> <highlight>coins</highlight> <success>balance is:</success> <highlight>{coins}</highlight>\n<success>Your</success> <highlight>tickets</highlight> <success>balance is:</success> <highlight>{tickets}</highlight>"
       },
-      "parent" : {
+      "parent": {
         "usage": "<add|remove|set|get>",
         "desc": "Manage player balances"
       },
