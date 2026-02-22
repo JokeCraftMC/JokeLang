@@ -17,26 +17,51 @@ All translation files are in JSON format:
 
 ## 🚀 How to Contribute
 
-### Method 1: GitHub Web Editor (Easy!)
+### Step 1: See What Needs Translation
+
+**Option A:** Compare with English
+1. Open `en_US.json` (the master file with ALL strings)
+2. Open your language file (e.g., `de_DE.json`)
+3. Compare side-by-side
+4. Find strings that are missing or still in English
+
+**Option B:** Check GitHub Issues
+- Look for pinned issues like **"[DE] Help translate to German"**
+- These show what's missing and current progress
+
+**Option C:** Ask Maintainer
+- Open an issue asking for a complete file with `TODO:` markers
+- Maintainer will generate one showing all missing translations
+
+### Step 2: Translate
+
+**Method 1: GitHub Web Editor (Easy!)**
 
 1. Click on the language file you want to edit (e.g., `de_DE.json`)
 2. Click the **✏️ pencil icon** (Edit this file)
-3. Make your changes
+3. Add your translations OR fix existing ones
 4. Click **"Commit changes"** at the bottom
-5. Write a description (e.g., "Fixed German translation for...")
+5. Write a description (e.g., "Added German translations for commands")
 6. Click **"Propose changes"**
 7. Click **"Create pull request"**
 8. Done! ✅
 
-### Method 2: GitHub Issues
+**Method 2: Fork & PR (Advanced)**
+
+1. Fork this repository
+2. Clone your fork
+3. Edit the language file
+4. Commit & push
+5. Create Pull Request
+
+**Method 3: GitHub Issues**
 
 Don't want to edit files? Just open an [Issue](../../issues/new) with:
 - Language code (e.g., `de_DE`)
-- Translation key (e.g., `welcome.message`)
-- Current text
-- Suggested translation
+- Strings you want to translate
+- Your translations
 
-We'll add it for you!
+We'll add them for you!
 
 ---
 
