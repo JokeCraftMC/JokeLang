@@ -195,11 +195,43 @@ Common placeholders:
 
 Want to add a language that's not here yet?
 
-1. Copy `en_US.json`
-2. Rename it with the [Minecraft language code](https://minecraft.wiki/w/Language)
+### Super Easy Way:
+
+1. **Create an empty file** with the language code
    - Examples: `es_ES.json` (Spanish), `ja_JP.json` (Japanese), `pt_BR.json` (Brazilian Portuguese)
-3. Translate all the values (remember: only the words!)
-4. Submit a Pull Request
+   - See [Minecraft language codes](https://minecraft.wiki/w/Language)
+
+2. **Add this starter content:**
+   ```json
+   {
+     "_note": "Translation progress: will be auto-updated",
+     "_instructions": "Search for 'TODO:' to find untranslated strings",
+     "_contributors": "Add your name here when you contribute!"
+   }
+   ```
+
+3. **Commit & push:**
+   ```bash
+   git add es_ES.json
+   git commit -m "Add Spanish language support"
+   git push
+   ```
+
+4. **Wait for automation!**
+   - The automation system will detect the new file
+   - Next time English strings are updated, your file will be filled automatically
+   - All strings will be marked with "TODO: "
+
+### That's It!
+
+The automation **automatically detects** all `.json` files in this repository.
+
+**No need to:**
+- ❌ Edit any scripts
+- ❌ Update configuration files
+- ❌ Ask maintainers to add your language
+
+**Just create the file and push!** ✅
 
 ---
 
