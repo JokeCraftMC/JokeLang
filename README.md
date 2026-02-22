@@ -193,15 +193,18 @@ Common placeholders:
 
 ## 🆕 Adding a New Language
 
-Want to add a language that's not here yet?
+Want to add a language that's not here yet? **You can do it yourself through a Pull Request!**
 
-### Super Easy Way:
+### Steps:
 
-1. **Create an empty file** with the language code
+1. **Fork this repository** (click the "Fork" button at the top of this page)
+
+2. **Create a new file** in your fork with the language code:
+   - Click "Add file" → "Create new file"
+   - Name it with the [Minecraft language code](https://minecraft.wiki/w/Language)
    - Examples: `es_ES.json` (Spanish), `ja_JP.json` (Japanese), `pt_BR.json` (Brazilian Portuguese)
-   - See [Minecraft language codes](https://minecraft.wiki/w/Language)
 
-2. **Add this starter content:**
+3. **Add this starter content:**
    ```json
    {
      "_note": "Translation progress: will be auto-updated",
@@ -210,28 +213,27 @@ Want to add a language that's not here yet?
    }
    ```
 
-3. **Commit & push:**
-   ```bash
-   git add es_ES.json
-   git commit -m "Add Spanish language support"
-   git push
-   ```
+4. **Commit the file** to your fork
 
-4. **Wait for automation!**
-   - The automation system will detect the new file
-   - Next time English strings are updated, your file will be filled automatically
-   - All strings will be marked with "TODO: "
+5. **Open a Pull Request** back to this repository
+   - GitHub will show "This branch is 1 commit ahead"
+   - Click "Contribute" → "Open pull request"
+   - Submit!
 
-### That's It!
+6. **Wait for approval**
+   - Maintainers will review and merge your PR
+   - Once merged, the automation will fill your file automatically!
 
-The automation **automatically detects** all `.json` files in this repository.
+### What Happens After Your PR is Merged:
 
-**No need to:**
-- ❌ Edit any scripts
-- ❌ Update configuration files
-- ❌ Ask maintainers to add your language
+The next time English strings are updated:
+- ✅ Your language file will be automatically filled with all strings
+- ✅ Untranslated strings will be marked with "TODO: "
+- ✅ You'll be notified and can start translating!
 
-**Just create the file and push!** ✅
+### Don't Want to Use Git?
+
+Open an [Issue](../../issues/new/choose) requesting the language, and maintainers will add it for you!
 
 ---
 
