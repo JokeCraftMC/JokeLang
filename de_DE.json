@@ -1,32 +1,5 @@
 {
-  "_note": "This German translation is incomplete and needs native speakers!",
-  "_contributors": "Add your name here when you contribute!",
-  "_progress": "0%",
-
-  "command": {
-    "error": "<error>Fehler:</error> {message}",
-    "no_permission": "<error>{message}</error>",
-    "not_found": "<error>Befehl nicht gefunden!</error>\n<neutral>Gib</neutral> <hover:show_text:'<secondary>Klicke um /help auszuführen</secondary>'><click:run_command:/help><secondary>/help</secondary></click></hover> <neutral>ein für eine Liste der Befehle.</neutral>",
-    "usage": "<info>Verwendung:</info> {usage}",
-    "player_only": "<error>Dieser Befehl kann nur von Spielern verwendet werden!</error>",
-    "console_only": "<error>Dieser Befehl kann nur von der Konsole verwendet werden!</error>",
-    "success": "<success>Erfolg!</success> {message}",
-    "invalid_args": "<error>Ungültiges Befehlsformat!</error>"
-  },
-
-  "general": {
-    "welcome": "<gradient:green:blue>Willkommen bei JokeCraft!</gradient>",
-    "goodbye": "<rainbow>Auf Wiedersehen, bis bald!</rainbow>"
-  },
-
-  "player": {
-    "join": "<positive>{player}</positive> <neutral>ist dem Spiel beigetreten</neutral>",
-    "leave": "<secondary>{player}</secondary> <neutral>hat das Spiel verlassen</neutral>"
-  },
-
-  "language": {
-    "changed": "<success>Sprache geändert zu:</success> <highlight>{language}</highlight>",
-    "invalid": "<error>Ungültige Sprache!</error>",
-    "description": "Ändern Sie Ihre Sprachpräferenz"
-  }
+  "_note": "This file will be auto-updated by the automation system",
+  "_instructions": "Search for 'TODO:' to find untranslated strings",
+  "_contributors": "Add your name here when you contribute!"
 }
