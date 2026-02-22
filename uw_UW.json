@@ -1,4 +1,8 @@
 {
+  "test_system": {
+    "message": "TODO: <success>Translation system test - timestamp: 2026-02-22 21:00</success>",
+    "description": "This tests the complete automation"
+  },
   "command": {
     "error": "<error>Oopsie woopsie!</error> UwU {message}",
     "no_permission": "<error>{message}</error> >w<",
@@ -290,7 +294,6 @@
       }
     }
   },
-  "_note": "Translation progress: 103/179 (57.5%)",
   "_instructions": "Search for 'TODO:' to find untranslated strings",
   "_contributors": "Add your name here when you contribute!"
 }

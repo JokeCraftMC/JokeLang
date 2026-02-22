@@ -1,4 +1,8 @@
 {
+  "test_system": {
+    "message": "<success>Translation system test - timestamp: 2026-02-22 21:00</success>",
+    "description": "This tests the complete automation"
+  },
   "command": {
     "error": "<error>Error:</error> {message}",
     "no_permission": "<error>{message}</error>",
