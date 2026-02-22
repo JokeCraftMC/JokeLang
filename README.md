@@ -1,10 +1,10 @@
-﻿# 🌍 JokeLang
+# ?? JokeLang
 Community translations for JokeCraft.
 ---
-## 🚀 Contribute
+## ?? Contribute
 ### Translate:
 1. Pick a file (e.g., `de_DE.json`)
-2. Edit on GitHub (click ✏️ pencil icon)
+2. Edit on GitHub (click ?? pencil icon)
 3. Replace `"TODO: English text"` with your translation
 4. Keep `<tags>` and `{placeholders}` unchanged
 5. Save & open Pull Request
@@ -14,18 +14,16 @@ Community translations for JokeCraft.
 3. Add: `{"_contributors": "Your Name"}`
 4. Open Pull Request
 ---
-## ✅ Rules
+## ? Rules
 **Translate words only!**
-✅ Good: `"welcome": "<primary>Bienvenue!</primary>"`  
-❌ Bad: `"welcome": "<primaire>Bienvenue!</primaire>"`
+? Good: `"welcome": "<primary>Bienvenue!</primary>"`  
+? Bad: `"welcome": "<primaire>Bienvenue!</primaire>"`
 Dont translate:
 - `<tags>`
 - `{placeholders}`
 - `usage` fields
 - `description` fields
 ---
-## 💬 Help
+## ?? Help
 - **Questions?** [Open an Issue](../../issues/new)
 ---
-**Languages:** English • German • French • UwU • Japanese
-**Thanks!** ❤️
