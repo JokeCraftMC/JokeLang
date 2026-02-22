@@ -193,43 +193,73 @@ Common placeholders:
 
 ## 🆕 Adding a New Language
 
-Want to add a language that's not here yet? **You can do it yourself through a Pull Request!**
+Want to add a language that's not here yet? **You can do it yourself!**
+
+### How It Works:
+
+When you **fork** this repository, you get **your own copy** that you fully control. You can create files, edit them, commit, push - whatever you want in **your fork**!
 
 ### Steps:
 
-1. **Fork this repository** (click the "Fork" button at the top of this page)
+1. **Fork this repository** 
+   - Click the "Fork" button at the top right of this page
+   - This creates `YourUsername/JokeLang` - **your own copy**
+   - You have full control over your fork!
 
-2. **Create a new file** in your fork with the language code:
-   - Click "Add file" → "Create new file"
+2. **In YOUR fork, create a new file:**
+   
+   **Option A: GitHub Web Interface (Easy!)**
+   - In your fork, click "Add file" → "Create new file"
    - Name it with the [Minecraft language code](https://minecraft.wiki/w/Language)
-   - Examples: `es_ES.json` (Spanish), `ja_JP.json` (Japanese), `pt_BR.json` (Brazilian Portuguese)
-
-3. **Add this starter content:**
-   ```json
-   {
-     "_note": "Translation progress: will be auto-updated",
-     "_instructions": "Search for 'TODO:' to find untranslated strings",
-     "_contributors": "Add your name here when you contribute!"
-   }
+     - Examples: `es_ES.json` (Spanish), `ja_JP.json` (Japanese), `pt_BR.json` (Portuguese)
+   - Add this starter content:
+     ```json
+     {
+       "_note": "Translation progress: will be auto-updated",
+       "_instructions": "Search for 'TODO:' to find untranslated strings",
+       "_contributors": "Add your name here when you contribute!"
+     }
+     ```
+   - Click "Commit new file"
+   
+   **Option B: Git Command Line**
+   ```bash
+   # Clone your fork (not the original!)
+   git clone https://github.com/YourUsername/JokeLang.git
+   cd JokeLang
+   
+   # Create the file
+   echo '{"_note":"Spanish translation","_contributors":"Your Name"}' > es_ES.json
+   
+   # Commit & push to YOUR fork
+   git add es_ES.json
+   git commit -m "Add Spanish language support"
+   git push
    ```
 
-4. **Commit the file** to your fork
-
-5. **Open a Pull Request** back to this repository
-   - GitHub will show "This branch is 1 commit ahead"
+3. **Open a Pull Request**
+   - GitHub will show "This branch is 1 commit ahead of JokeCraftMC:main"
    - Click "Contribute" → "Open pull request"
+   - Write a message like "Add Spanish language support"
    - Submit!
 
-6. **Wait for approval**
-   - Maintainers will review and merge your PR
-   - Once merged, the automation will fill your file automatically!
+4. **Wait for approval**
+   - Maintainers will review your PR
+   - If approved, they'll merge it into the main repo
+   - Your language file is now official! 🎉
 
-### What Happens After Your PR is Merged:
+5. **Automation fills it automatically**
+   - Next time English strings are updated
+   - The automation detects your new file
+   - Fills it with all strings marked "TODO:"
+   - You'll be notified and can start translating!
 
-The next time English strings are updated:
-- ✅ Your language file will be automatically filled with all strings
-- ✅ Untranslated strings will be marked with "TODO: "
-- ✅ You'll be notified and can start translating!
+### Key Points:
+
+- ✅ **Your fork = your copy** - you can create files there!
+- ✅ **Pull Request** = you ask maintainers to merge your changes
+- ✅ **Maintainers approve** = your file appears in the official repo
+- ✅ **Automation detects** = your file gets filled automatically
 
 ### Don't Want to Use Git?
 
