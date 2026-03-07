@@ -1,6 +1,6 @@
 {
   "test_system": {
-    "message": "<success>Test du système de traduction - timestamp: 2026-02-22 21:00</success>",
+    "message": "<success>Test du systï¿½me de traduction - timestamp: 2026-02-22 21:00</success>",
     "description": "This tests the complete automation"
   },
   "command": {
@@ -73,6 +73,7 @@
   "general": {
     "welcome": "TODO: <gradient:green:blue>Welcome to JokeCraft!</gradient>",
     "goodbye": "TODO: <rainbow>Goodbye, see you soon!</rainbow>",
+    "success": "TODO: <success>Success!</success>",
     "player_only": "TODO: <error>This command can only be used by players!</error>",
     "given_player_not_found": "TODO: <error>Could not find player named <highlight>{player}</highlight><error>!</error>",
     "given_rank_not_found": "TODO: <error>Could not find</error> <highlight>{type}</highlight> <error>rank named</error> <highlight>{rank}</highlight><error>!</error>",

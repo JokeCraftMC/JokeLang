@@ -73,6 +73,7 @@
   "general": {
     "welcome": "<gradient:green:blue>Welcome to JokeCraft!</gradient>",
     "goodbye": "<rainbow>Goodbye, see you soon!</rainbow>",
+    "success": "<success>Success!</success>",
     "player_only": "<error>This command can only be used by players!</error>",
     "given_player_not_found": "<error>Could not find player named <highlight>{player}</highlight><error>!</error>",
     "given_rank_not_found": "<error>Could not find</error> <highlight>{type}</highlight> <error>rank named</error> <highlight>{rank}</highlight><error>!</error>",
