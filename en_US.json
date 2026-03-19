@@ -71,7 +71,7 @@
     "start": "<info>Parkour started!</info> Good luck!"
   },
   "general": {
-    "welcome": "<gradient:green:blue>Welcome to JokeCraft!</gradient>",
+    "welcome": "<gradient:green:blue>Welcome to Rankup Server!</gradient>",
     "goodbye": "<rainbow>Goodbye, see you soon!</rainbow>",
     "success": "<success>Success!</success>",
     "player_only": "<error>This command can only be used by players!</error>",
@@ -225,12 +225,12 @@
         "footer": "<error>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</error>"
       },
       "disconnect": {
-        "header": "<primary><bold>JOKECRAFT</bold></primary> <secondary>/</secondary> <error><bold>BANNED</bold></error>",
+        "header": "<primary><bold>RANKUP SERVER</bold></primary> <secondary>/</secondary> <error><bold>BANNED</bold></error>",
         "message": "<negative>You have been {type} banned!</negative>",
         "reason": "<secondary>Reason:</secondary> <neutral>{reason}</neutral>",
         "expires": "<secondary>Expires in:</secondary> <highlight>{time}</highlight>",
         "footer": "<error>Remember, I'm always watching...</error>",
-        "appeal": "<secondary>Appeal at</secondary> <highlight>discord.jokecraft.org</highlight>"
+        "appeal": "<secondary>Appeal at</secondary> <highlight>discord.rankupserver.com</highlight>"
       }
     },
     "mute": {
